@@ -1,0 +1,675 @@
+@font-face {
+    font-family: "Graphie";
+    src: url();
+}
+body{
+    font-family: 'Graphie' !important;
+}
+
+/*first section*/
+.nav_bar {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    height: 79px;
+    -webkit-box-shadow: 0px 1px 10px rgba(26, 25, 69, 0.1);
+            box-shadow: 0px 1px 10px rgba(26, 25, 69, 0.1);
+    background-color: white !important;
+}
+
+.logo {
+    width: 122px;
+    height: 36px;
+}
+
+.linksBoxs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+        
+}
+
+.linksBoxs .dropdown {
+    margin-left: 40px;
+}
+
+.linksBoxs .dropdown .btn {
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: none !important;
+    border: none !important;
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8D959C;
+}
+
+.linksBoxs .dropdown .btn:hover {
+    color: #051367;
+}
+
+.linksBoxs .dropdown .dropdown-menu li a {
+    color: #8D959C;
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.linksBoxs .dropdown .dropdown-menu li a img {
+    margin-left: 0 !important; 
+    margin-right: 12px !important;
+
+}
+
+.linksBoxs .dropdown a img {
+    width: 28px;
+    height: 28px;
+    margin-left: 12px;
+}
+
+.linksBoxs .dropdown .dropdown-toggle::after {
+    margin-right: 6px !important;
+    vertical-align: 0 !important;
+    margin-top: 5px;
+
+}
+
+.linksBoxs a {
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.linksBoxs a:hover {
+    color: #051367;
+}
+
+.linksBoxs a img {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.firstSection {
+    height: 768px;
+    background-image: url('../imgs/Rectangle\ 48.png');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+.firstSection .container .row {
+    margin-top: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+
+.firstSection .container .row .firstCol .firstP {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0 !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.firstSection .container .row .firstCol .secondP {
+    margin-top: 32px !important;
+    margin-bottom: 0 !important;
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.firstSection .container .row .firstCol .thirdP {
+    font-family: 'Graphie';
+    margin-bottom: 0 !important;
+    margin-top: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.firstSection .container .row .firstCol .dash {
+    width: 4px;
+    height: 38px;
+    background: #D1170B;
+    margin-left: 11px;
+
+}
+
+.formTitle {
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 0 !important;
+    margin-bottom: 27px;
+    color: white;
+}
+
+.secondCol form input {
+    width: 100%;
+    display: block !important;
+    border: 1px solid white !important;
+    margin-bottom: 25px;
+    padding-right: 16px;
+    height: 52px;
+    background: rgba(255, 255, 255, 0.1);
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.65);
+    direction: rtl;
+}
+
+.secondCol form input:focus {
+    outline: none;
+    border: 1px solid #2B33C1 !important;
+
+}
+
+.secondCol form button {
+    height: 52px;
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    background-color: #2B33C1;
+    outline: none;
+    border: none;
+}
+
+.secondCol form button:hover {
+    background-color: #202691;
+}
+/* secondSection */
+.secondSection{
+    padding-top: 80px;
+
+}
+.secondSection .container{
+    overflow-x: hidden;overflow-y: hidden;
+}
+.secondSection .title{
+    font-family: 'Graphie';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 46px;
+text-align: center;
+color: #000000;
+margin-top: 0 !important;
+margin-bottom: 12px;
+}
+.secondSection .smText{
+    font-family: 'Graphie';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+color: #8D959C;
+margin-bottom: 50px;
+}
+.thirdSection {
+    margin-top: 110px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.thirdSection .row div .firstP {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.thirdSection .row div .secondP {
+    margin-top: 12px !important;
+    margin-bottom: 0 !important;
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8D959C;
+}
+
+.secondROW {
+    margin-top: 110px !important;
+}
+/*  fourthSection*/
+.fourthSection{
+    margin-top: 110px ;
+    background-image: url('../imgs/Rectangle\ 70.png');
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 90px;
+
+}
+.fourthSection .titl_e{
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0 !important;
+    margin-bottom: 113px !important;
+}
+/* .fourthSection .container .row div img{
+    width: 58px;
+    height: 58px;
+} */
+.fourthSection .container .row div .firstP{
+    margin-top: 27px !important;
+    margin-bottom: 0 !important;
+    font-family: 'Graphie';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: white;
+}
+.fourthSection .container .row div .secondP{
+    margin-bottom: 0 !important;
+    margin-top: 12px;
+    font-family: 'Graphie';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.7);
+
+}
+/* footer*/
+.footerLogo{
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 197.37px;
+    height: 58.09px;
+    margin-bottom: 90px;
+}
+.footeren{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: #051367;
+
+}
+.footeren .container .row div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.logoGoogle{
+    Width:92px;
+Height:30px;
+}
+.logoMicrosoft{
+    Width:133.1px;
+    Height:21.45px;
+}
+.logoZoom{
+    width: 120px;
+    height: 56px;
+}
+.logoAirbnb{
+    width: 124px;
+    height: 39px;
+}
+.copyRight{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+font-size: 16px;
+line-height: 30px;
+color: white;
+}
+.whatsFooter{
+    height: 63px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+}
+.whatsFooter a img{
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    
+}
+.whatsFooter a{
+    font-family: 'Graphie';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-decoration: none;
+color: black;
+}
+.whatsFooter a:hover{
+    color: #051367;
+}
+
+@media screen and (max-width:991px) {
+    /* secondSection */
+
+.secondSection .container{
+    overflow-x:scroll;overflow-y: hidden;
+}
+.secondSection .container span{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 768px;
+}
+    /*thirdSection*/
+    .thirdSection {
+        margin-top: 60px !important;
+    }
+    .thirdSection .row div .firstP {
+        margin-bottom: 12px !important;
+        font-size: 36px;
+        line-height: 48px;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+
+    }
+    .thirdSection .row div .secondP {
+        margin-top: 0 !important;
+        margin-bottom: 35px !important;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+
+    }
+    .secondROW {
+        margin-top: 60px !important;
+    }
+        /* fourthSection */
+        .fourthSection{
+            margin-top: 60px ;
+            background-image: url('../imgs/Rectangle\ 70\ phone.png');
+            background-size: cover;
+            padding-top: 45px;
+            padding-bottom: 90px;
+        
+        }
+        .fourthSection .titl_e{
+            font-size: 22px;
+    line-height: 26px;
+    
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 0 !important;
+            margin-bottom: 55px !important;
+        }
+        .fourthSection .container .row div img{
+            width: 50px;
+            height: 50px;
+        }
+        .fourthSection .container .row div .firstP{
+            margin-top: 20px !important;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+        
+        }
+        .fourthSection .container .row div .secondP{
+            margin-bottom: 38px !important;
+            margin-top: 12px;
+            font-size: 15px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+}
+@media screen and (max-width:767px) {
+
+    .nav_bar {
+        padding-left: 18px;
+        padding-right: 18px;
+        height: 63px;
+    }
+
+    .logo {
+        width: 93px !important;
+        height: 27.37px !important;
+    }
+.linksBoxs{
+    justify-content: flex-end !important;
+}
+    .linksBoxs .dropdown {
+        margin-left: 0;
+    }
+
+    .linksBoxs .dropdown a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .linksBoxs .dropdown .btn {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .linksBoxs .dropdown .dropdown-menu li a {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .firstSection {
+        height: 787px;
+        background-image: url('../imgs/Rectangle\ 48phone.png');
+        background-size: cover;
+
+    }
+    .firstSection .container .row {
+        margin-top: 50px;
+
+    }
+
+    .firstSection .container .row .firstCol .firstP {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 0 !important;
+        font-family: 'Graphie';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+
+    .firstSection .container .row .firstCol .secondP {
+        margin-top: 30px !important;
+        margin-bottom: 0 !important;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .firstSection .container .row .firstCol .thirdP {
+        margin-bottom: 0 !important;
+        margin-top: 12px !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .firstSection .container .row .firstCol .dash {
+        width: 38px;
+        height: 4px;
+        background: #D1170B;
+        margin-left: 0px;
+        margin-top: 4px !important;
+    }
+
+    .formTitle {
+        margin-top: 75px !important;
+        margin-bottom: 16px !important;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .secondCol form input {
+        margin-bottom: 20px;
+        padding-right: 16px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .secondCol form button {
+        height: 50px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    /*thirdSection*/
+    .thirdSection .row div .firstP {
+        text-align: center;
+    }
+
+    .thirdSection .row div .secondP {
+        margin-bottom: 35px !important;
+        text-align: center;
+    }
+       /* footer*/
+.footerLogo{
+    width: 118.63px;
+    height: 34.92px;
+    margin-bottom: 65px;
+}
+.footeren{
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.footeren .container .row div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.logoGoogle{
+    Width:67px;
+Height:22px;
+}
+.logoMicrosoft{
+    Width:88px;
+    Height:14.5px;
+}
+.logoZoom{
+    width: 88px;
+    height: 41px;
+}
+.logoAirbnb{
+    width: 76px;
+    height: 24px;
+}
+.footeren .container .row div  .logoGoogle{
+    margin-bottom: 30px ;
+}
+.footeren .container .row div  .logoZoom{
+    margin-bottom: 30px ;
+}
+.copyRight{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+font-size: 16px;
+line-height: 30px;
+color: white;
+}
+
+
+}
